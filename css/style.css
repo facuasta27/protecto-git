@@ -202,6 +202,10 @@ ol {
         min-height: 1194px;
     }
 
+    li a{
+        color: white;
+       
+    }
     .class-header {
         background-color: black;
             width: 100%;
@@ -234,6 +238,7 @@ ol {
         display: flex;
         gap: 40px;
         align-items: center;
+        
     }
 
     .section-publicidad {
@@ -253,7 +258,7 @@ ol {
 
     .class-contenedor {
 
-        height: 100vh;
+        /* height: 100vh; */
         width: 100%;
     }
 
