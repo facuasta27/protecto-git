@@ -13,13 +13,13 @@
 <body>
     <header class="class-header">
         <img src="./img/rayo-logo.PNG" alt="jamrolas" class="img-logo">
-        <h1 class="class-jamrolas">Jam Rolas</h1>
+        <a href="./index.html"><h1 class="class-jamrolas" >Jam Rolas</h1></a>
 
         <nav class="class-nav">
             <ul class="class-barranav">
-                <li class="class-li"><a href="./index.html">Menu</a></li>
+                <!-- <li class="class-li"><a href="./index.html">Menu</a></li> -->
                 <li class="class-li"><a href="./contacto.html">Contacto</a></li>
-             <li class="class-li"><a href="./nosotros.html">Nosotros</a></li>
+                <li class="class-li"><a href="./nosotros.html">Nosotros</a></li>
 
                 <li>
                     <a href="#" class="perfil">Opciones</a>
@@ -37,9 +37,14 @@
 
         <nav class="class-navegador">
             <ul class="nav-item">
-                <li>
-                    <a href="">Buscador</a>
-                </li>
+                <section class="section-buscar">
+                    <form autocomplete="off">
+                        <div class="div-form">
+                            <input type="text" name="q" placeholder="Buscar" class="input-buscar">
+                        </div>
+                    </form>
+                </section>
+    
                 <li><a href="">Perfil</a></li>
             </ul>
         </nav>
@@ -63,20 +68,15 @@
 
                         <article class="article-guardados">
 
-                            <div class="guardados-1">
+                            <div class="guardados">
 
                                 <div class="div-parte1">
-
-                                    <div class="jr1">
-                                        
-                                        <div class="parte-img">
-                                            <!-- <img src="../img/baresi.jpg" alt="" class="parte1-img">  -->
-                                        </div>
-
-                                        <h3 class="baresi">Baresi</h3>
+                                    <div class="parte-img">
+                                        <img src="./img/baresi.jpg" alt="" class="parte-imagen">
                                     </div>
                                 </div>
 
+                                <h3 class="titulo-guardados">Baresi</h3>
 
                                 <div class="parte-item">
                                     <a href="" class="btn">Ir</a>
@@ -88,8 +88,40 @@
 
 
 
-                            <div class="guardados-2">2</div>
-                            <div class="guardados-3">3</div>
+                            <div class="guardados">
+                                <div class="div-parte1">
+                                    <div class="parte-img">
+                                        <img src="" alt="">
+                                        <img src="./img/roderick.jpg" alt="" class="parte-imagen">
+                                    </div>
+                                </div>
+
+                                <h3 class="titulo-guardados">Roderick</h3>
+
+                                <div class="parte-item">
+                                    <a href="" class="btn">Ir</a>
+                                    <a href="" class="btn">Quitar</a>
+                                    <a href="" class="btn">Reservar</a>
+                                </div>
+
+                            </div>
+
+                            <div class="guardados">
+                                <div class="div-parte1">
+                                    <div class="parte-img">
+                                        <img src="./img/baum.jfif" alt="" class="parte-imagen"> 
+                                    </div>
+                                </div>
+
+                                <h3 class="titulo-guardados">Baum</h3>
+
+                                <div class="parte-item">
+                                    <a href="" class="btn">Ir</a>
+                                    <a href="">Quitar</a>
+                                    <a href="">Reservar</a>
+                                </div>
+
+                            </div>
                         </article>
 
                     </div>
@@ -101,21 +133,23 @@
 
 
             <section class="contenedor-hijo2">
-                <h2>Sitios recomendados</h2>
+                <h2>Publicidad</h2>
 
-                <div>
-                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi earum, ipsum dolore iure, est
-                        esse sapiente delectus aspernatur aut, veritatis maiores! Mollitia, sequi? Aspernatur,
-                        perferendis impedit. Impedit laboriosam commodi eveniet.</div>
-                </div>
+                <div class="contenedor-publicidad">
+                    <div>
+                        <img src="./img/publicidad-fernet.jpg" alt="" class="guardados-img">
+                    </div>
 
-                <div>
-                    <div>2</div>
-                </div>
+                    <div>
+                     <figure>
+                        <iframe  width="100%" height="250px"  src="https://www.youtube.com/embed/Gi1fJ_0pR3I" title="YouTube video player" allow="autoplay"  
+                        ></iframe>
+                     </figure>
+                    </div>
 
-                <div>
-                    <div>3</div>
-                </div>
+                    <div>
+                        <div>3</div>
+                    </div>
             </section>
 
 
@@ -129,7 +163,7 @@
     <footer class="footer">
 
 
-     
+
         <div class="div-barrassociales">
             <div class="icon-social">
 
