@@ -5,81 +5,175 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/fontello.css">
     <link rel="stylesheet" href="../css/style.css">
+
     <title>Document</title>
 </head>
 
 <body>
-        <header class="header">
-            <h1 class="h1-jamrolas">Jam rolas</h1>
-    
-    
-            <nav>
-                <ul class="nav-lista">
-                    <li class="li"><a href="../pages/favoritos.html">Favoritos</a></li>
-    
-                    <li class="li"><a href="../pages/alertas.html">Alertas</a></li>
-    
-                    <li class="li"><a href="../pages/reservas.html">Reservas</a></li>
-                </ul>
-            </nav>
-        </header>
-      
-        
+    <header class="header-paginas">
+        <div class="icon-primario">
+            <a href class="icon-left-open"></a>
+        </div>
+        <div class="icon-secundario">
+            <a href="" class="icon-share"></a>
+
+        </div>
+    </header>
+
+    <header class="class-header">
+        <img src="./img/rayo-logo.PNG" alt="jamrolas" class="img-logo">
+        <a href="./index.html"> <h1 class="class-jamrolas">Jam Rolas</h1> </a>
+
+        <nav class="class-nav">
+            <ul class="class-barranav">
+                <!-- <li class="class-li"><a href="./index.html">Menu</a></li> -->
+                <li class="class-li"><a href="./contacto.html">Contacto</a></li>
+                <li class="class-li"><a href="./nosotros.html">Nosotros</a></li>
+                <li>
+                    <a href="#" class="perfil">Opciones</a>
+                    <ul class="menu-vertical">
+                        <li><a href="./pages/perfil.html">Perfil</a></li>
+                        <li><a href="./reservas.html">Reservas</a></li>
+                        <li><a href="./guardados.html">Guardados</a></li>
+                        <li><a href="./pages/alertas.html">Alertas</a></li>
+
+                    </ul>
+
+                </li>
+            </ul>
+        </nav>
     </header>
 
 
 
-    <main>
-        <div>
-            <a href="../index.html" class="btn">Inicio</a>    
+    <main class="contenedor-general">
+        <section class="contenedor-encabezado-alertas">
+            <div class="titulo">
+                <h1>Alertas</h1>
             </div>
+        </section>
 
-            <section class="section-alertas">
-                <div class="div-alertas">
-                    <h2 class=class-h1-alertas>Alertas</h2>
-                    
-                    <nav class="class-nav-alertas">
-                        <li><a href="">Actuales</a></li>
-                        <li><a href="">Creadas</a></li>
-                    </nav>
-    
+        <section class="contenedor-principal-alertas">
+
+            <div class="contenedor-secundario-alertas">
+                <div class="row-uno">
+                    <h2>Busca el nombre del sitio</h2>
+
+                    <input type="text" placeholder="Escriba aqui...">
                 </div>
 
+                <div class="row-dos">
 
-            <article class="article-patagonia">
-                <img src="../img/cerveceria-patagonia.jpg" alt="cerveceria-patagonia" class="patagonia-img-alertas">
-                <h4>Cerveceria Patagonia</h4>
+                    <div>
+                        <h3> Email para recibir la alerta </h3>
 
-                <p class="p-patagonia">Alerta creada: Dia: 12/12/2023 Horario:20.30 Personas: 4</p>
+                        <input type="email" name="e-mail" id="e-mail" placeholder="Escriba aqui..">
+                    </div>
+
+                    <div>
+                        <h3> Repeticion de su alerta </h3>
+
+                        <input type="number">
+                    </div>
+
+                </div>
+
+                <div class="datetime-local">
+                    <h3>Eliga fecha y hora</h3>
+                    <input type="datetime-local">
+                </div>
+
+                <div class="contenedor-btn-alertas">
+                    <div>
+                        <a href="">Cancelar</a>
+                    </div>
+
+                    <div>
+                        <a href="">Confirmar</a>
+                    </div>
+                </div>
+            </div>
 
 
-            </article>
-
-            <article class="article-roderick">
-                <img src="../img/roderick.jpg" alt="roderick" class="img-roderick">
-                <h4>Roderick</h4>
-                <p class="p-roderick">Alerta creada: Dia 15/12/2023 Horario:22.30 Personas:7</p>
-
-            </article>
         </section>
+
+
+
+
     </main>
+    <hr>
 
-    <footer class="class-footer">
+    <div class="tab-bar">
+
         <div>
-            <nav>
-                <ul class="class-nav">
-                    <li><a href="./footer/nosotros.html">Nosotros</a></li>
+            <a href="" class="icon-search">
+                <span> Buscar </span>
+            </a>
 
-                    <li class="contacto"><a href="./footer/contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
+            <a href="../pages/perfil.html" class="icon-adult">
+                <span> Perfil</span>
+            </a>
+
+            <a href="" class="icon-phone">
+                <span> Ayuda </span>
+            </a>
+
+            <a href="" class="icon-heart-1">
+                <span> Favoritos </span>
+            </a>
+
         </div>
-        <!-- <a href="#header-index">Ir al principio</a> -->
+    </div>
+
+
+    <footer class="footer">
+
+        <div class="div-barrassociales">
+            <div class="icon-social">
+
+                <a href="" class="icon-facebook-squared">
+                    <span class="titulo-icon">Facebook</span>
+                </a>
+
+                <a href="" class="icon-twitter">
+                    <span class="titulo-icon"> Twitter</span>
+                </a>
+                <a href="" class="icon-instagram">
+                    <span class="titulo-icon">Instagram</span>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="div-jr">
+            2023 Jam Rolas, Inc
+        </div>
+
+        <article>
+            <div class="div-barrafotter">
+                <a href="">
+                    Contacto
+                </a>
+
+
+
+                <a href="">
+                    Recursos politicos
+                </a>
+
+
+
+                <a href="">
+                    Obtene la app
+                </a>
+            </div>
+
+        </article>
+
 
     </footer>
-
-
 
 
 </body>
