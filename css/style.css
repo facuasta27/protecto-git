@@ -701,10 +701,13 @@ li a {
   }
 }
 @media (min-width: 1000px) {
-  .tab-bar {
+  main {
+    height: max-content;
+  }
+  .tab-bar-reservas {
     display: none;
   }
-  .header-paginas {
+  .tab-bar {
     display: none;
   }
   .class-header {
@@ -889,7 +892,7 @@ li a {
   .footer {
     display: block;
     width: 100%;
-    height: 100px;
+    height: min-content;
     padding: 1px;
     background-color: wheat;
     display: grid;
@@ -1320,7 +1323,7 @@ li a {
   }
   .footer {
     display: block;
-    height: 100%;
+    height: min-content;
     width: 100%;
     padding: 1px;
     background-color: wheat;
