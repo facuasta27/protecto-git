@@ -2868,9 +2868,15 @@ li a {
 
     .contenedor-padre {
 
+        height: max-content;
+
         margin: 40px;
 
         width: 100%;
+
+        margin-left: 10px;
+
+        margin-right: 10px;
 
         .contenedor-hijo {
 
@@ -2878,7 +2884,7 @@ li a {
 
             display: grid;
 
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(3, 1fr);
 
             grid-template-rows: repeat(2, 1fr);
 
@@ -2891,14 +2897,13 @@ li a {
     }
 
     .parrafos {
-        font-size: 2rem;
+        font-size: 1rem;
 
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
     }
 
     .contenedor-p1 {
-
         grid-row: 1/2;
 
     }

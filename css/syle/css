@@ -1484,19 +1484,22 @@ li a {
     border-radius: 5px;
   }
   .contenedor-padre {
+    height: max-content;
     margin: 40px;
     width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   .contenedor-padre .contenedor-hijo {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     align-items: center;
     justify-content: center;
   }
   .parrafos {
-    font-size: 2rem;
+    font-size: 1rem;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   }
   .contenedor-p1 {
