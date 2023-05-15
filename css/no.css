@@ -153,7 +153,7 @@ li a {
   }
   footer {
     background-color: wheat;
-    height: 850px;
+    height: 760px;
     width: 100%;
     position: static;
     display: grid;
@@ -282,6 +282,9 @@ li a {
     padding: 2px;
     width: 100%;
     height: 100vh;
+    background-color: #6200EE;
+    margin-top: 10%;
+    height: 56px;
   }
   .paginas-sitio .header-paginas {
     background-color: #8c49e9;
@@ -311,12 +314,11 @@ li a {
   }
   .paginas-sitio article .img-pagina {
     margin-top: 5px;
+    background-color: red;
     width: 100%;
     height: 204px;
-    grid-template-columns: repeat(3, 1fr);
   }
   .paginas-sitio article .img-pagina img {
-    grid-column: 2/3;
     width: 100%;
     height: 100%;
   }
@@ -335,15 +337,12 @@ li a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     height: 100%;
-    grid-column: 2/4;
     align-items: center;
-    border-radius: 4px;
+    justify-content: center;
+    justify-items: center;
   }
   .paginas-sitio .info-paginas div div a {
-    color: black;
-  }
-  .paginas-sitio .info-paginas .tab-bar-roderick {
-    display: block;
+    color: white;
   }
   .paginas-sitio .item-paginas {
     margin-top: 4%;
@@ -369,18 +368,13 @@ li a {
     color: white;
     font-size: 0.7rem;
   }
-  .paginas-sitio .tab-bar {
-    background-color: #6200EE;
-    margin-top: 10%;
-    height: 56px;
-  }
-  .paginas-sitio .tab-bar div {
+  .paginas-sitio div {
     height: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
   }
-  .paginas-sitio .tab-bar div a {
+  .paginas-sitio div a {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     color: white;
@@ -714,7 +708,7 @@ li a {
     display: none;
   }
   .class-header {
-    display: block;
+    display: none;
   }
   .contenedor-pagina {
     width: 90%;
@@ -1098,12 +1092,12 @@ li a {
   .contenedor-general {
     height: 100vh;
   }
-  .contenedor-guardados {
+   .contenedor-guardados {
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1);
-  }
+  } 
   .contenedor-guardados .contenedor-hijo1 {
     grid-column: span 2;
   }
@@ -1173,9 +1167,6 @@ li a {
   .contenedor-hijo2 .contenedor-publicidad div img {
     width: 100%;
     height: 200px;
-  }
-  .tab-bar-roderick {
-    display: none;
   }
 }
 @media (min-width: 400px) {
@@ -1592,43 +1583,6 @@ li a {
     padding: 15px 15px 15px 15px;
     text-decoration: none;
   }
-  .paginas-sitio .header-paginas {
-    display: none;
-  }
-  .paginas-sitio .class-header {
-    height: min-content;
-  }
-  .paginas-sitio article {
-    height: 30%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-  }
-  .paginas-sitio article h1 {
-    grid-column: 2/3;
-  }
-  .paginas-sitio article .img-pagina {
-    width: 100%;
-    grid-row: 2/5;
-    grid-column: 2/3;
-  }
-  .info-paginas div div {
-    text-align: center;
-  }
-  .info-paginas div div a {
-    color: white;
-  }
-  .item-paginas {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  .item-paginas a:hover {
-    background-color: white;
-    height: min-content;
-  }
-  .item-paginas a div:hover {
-    background-color: red;
-  }
 }
 
-/*# sourceMappingURL=stlye.css.map */
+/*# sourceMappingURL=style.css.map */

@@ -320,6 +320,7 @@ li a {
     footer {
         background-color: wheat;
         height: 850px;
+
         width: 100%;
         position: static;
         display: grid;
@@ -551,11 +552,12 @@ li a {
 
             .img-pagina {
                 margin-top: 5px;
-                background-color: red;
                 width: 100%;
                 height: 204px;
+                grid-template-columns: repeat(3, 1fr);
 
                 img {
+                    grid-column: 2/3;
                     width: 100%;
                     height: 100%;
                 }
@@ -563,6 +565,7 @@ li a {
         }
 
         .info-paginas {
+
             margin-top: 5%;
             height: 50px;
 
@@ -571,25 +574,33 @@ li a {
 
 
             div {
+
                 width: 100%;
                 height: 100%;
                 grid-column: 3/6;
+
 
                 div {
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);
                     height: 100%;
-
+                    grid-column: 2/4;
                     align-items: center;
-                    justify-content: center;
-                    justify-items: center;
+                    border-radius: 4px;
 
                     a {
-                        color: white;
+                        color: black;
+
                     }
                 }
             }
 
+
+            .tab-bar-roderick {
+                display: block;
+
+
+            }
 
         }
 
@@ -623,29 +634,29 @@ li a {
             }
         }
 
-        // .tab-bar {
-        background-color: #6200EE;
-        margin-top: 10%;
-        height: 56px;
+        .tab-bar {
+            background-color: #6200EE;
+            margin-top: 10%;
+            height: 56px;
 
-        div {
-            height: 100%;
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            justify-items: center;
+            div {
+                height: 100%;
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                justify-items: center;
+
+            }
+
+            div a {
+                display: grid;
+                grid-template-rows: repeat(2, 1fr);
+                color: white;
+                align-items: center;
+                justify-content: center;
+                justify-items: center;
+            }
 
         }
-
-        div a {
-            display: grid;
-            grid-template-rows: repeat(2, 1fr);
-            color: white;
-            align-items: center;
-            justify-content: center;
-            justify-items: center;
-        }
-
-        // }
     }
 
 
@@ -1541,8 +1552,7 @@ li a {
         display: block;
 
         width: 100%;
-
-        height: 100px;
+        height: min-content;
 
         padding: 1px;
 
@@ -1982,6 +1992,13 @@ li a {
 
 
 
+    // RESERVA---
+    .contenedor-general {
+        height: 100vh;
+
+    }
+
+
 
 
     // ---GUARDADOS---
@@ -2063,11 +2080,11 @@ li a {
                         grid-column: 1/2;
 
                         .parte-img {
-                            width: 100%;
+                            width: 50%;
                             height: 100%;
 
                             .parte-imagen {
-                                max-width: 90%;
+                                max-width: 70%;
                                 max-height: 78px;
                             }
 
@@ -2075,6 +2092,7 @@ li a {
                         }
 
                     }
+
 
                     h3 {
                         height: 100%;
@@ -2103,13 +2121,13 @@ li a {
 
     .contenedor-hijo2 {
         margin-top: 120px;
- 
+
 
         .contenedor-publicidad {
             height: 50%;
-            width: 100% ;
+            width: 100%;
 
-          div img {
+            div img {
                 width: 100%;
 
                 height: 200px;
@@ -2118,6 +2136,11 @@ li a {
 
         }
     }
+
+    .tab-bar-roderick {
+        display: none;
+    }
+
 
 
 }
@@ -2480,8 +2503,7 @@ li a {
 
         display: block;
 
-height: 100%;
-
+        height: min-content;
         width: 100%;
 
         padding: 1px;
@@ -3085,6 +3107,61 @@ height: 100%;
 
     }
 
+    .paginas-sitio {
+        .header-paginas {
+            display: none;
+        }
+
+        .class-header {
+            height: min-content;
+
+        }
+
+        article {
+            height: 30%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(6, 1fr);
+
+            h1 {
+                grid-column: 2/3;
+            }
+
+            .img-pagina {
+                width: 100%;
+                grid-row: 2/5;
+                grid-column: 2/3;
+            }
+        }
+    }
+
+    .info-paginas {
+
+        div {
 
 
+            div {
+                text-align: center;
+
+                a {
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .item-paginas {
+        margin-left: 20px;
+        margin-right: 20px;
+
+        a:hover {
+            background-color: white;
+            height: min-content;
+
+        }
+
+        a div:hover {
+            background-color: red;
+        }
+    }
 }
