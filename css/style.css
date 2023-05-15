@@ -453,18 +453,16 @@ li a {
   }
   .tab-bar-reservas {
     background-color: #6200EE;
-    max-height: 56px;
+    height: 56px;
     width: 100%;
-    position: fixed;
     bottom: 0;
+    position: fixed;
   }
   .tab-bar-reservas div {
-    margin-left: 7px;
     height: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
-    gap: 60px;
   }
   .tab-bar-reservas div a {
     display: grid;
