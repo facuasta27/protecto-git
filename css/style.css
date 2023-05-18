@@ -1133,7 +1133,6 @@ li a {
     text-align: center;
   }
   .contenedor-guardados .contenedor-hijo1 .contenedor-1 {
-    /* height: 100%; */
     display: grid;
     grid-template-rows: repeat(2, 1fr);
   }
