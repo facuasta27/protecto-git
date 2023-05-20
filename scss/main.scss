@@ -313,17 +313,19 @@ li a {
 
         }
 
-        .icon-home{
-            margin-left: 90%;
-            position: fixed;
-            color: wheat;
-            background-color: blueviolet;
-            border-radius: 50px;
-        }
 
 
 
     }
+
+    .icon-home {
+        margin-left: 90%;
+        position: fixed;
+        color: wheat;
+        background-color: blueviolet;
+        border-radius: 50px;
+    }
+
 
     footer {
         background-color: wheat;
@@ -643,9 +645,10 @@ li a {
         }
 
         .tab-bar {
-            background-color: #62e0EE;
-            margin-top: 10%;
+            background-color: #6200EE;
+            margin-left: -3px;
             height: 56px;
+            width: 100%;
 
             div {
                 height: 100%;
@@ -882,7 +885,7 @@ li a {
                         border-radius: 10px;
                     }
 
-                    a:hover{
+                    a:hover {
                         color: white;
                         background-color: red;
                     }
@@ -1158,6 +1161,9 @@ li a {
 
 
 @media (min-width:1000px) {
+    .icon-home{
+        display: none;
+    }
 
     .tab-bar {
         display: none;
@@ -2179,7 +2185,7 @@ li a {
         display: none;
     }
 
-    .tab-bar-reservas{
+    .tab-bar-reservas {
         display: none;
     }
 
@@ -2190,6 +2196,9 @@ li a {
 
 
 @media(min-width:400px) {
+    .icon-home{
+        display: none;
+    }
 
     .tab-bar {
         display: none;
@@ -3212,7 +3221,7 @@ li a {
         }
     }
 
-    .tab-bar-reservas{
+    .tab-bar-reservas {
         display: none;
     }
 }

@@ -151,7 +151,7 @@ li a {
   .class-contenedor .article-contenedor .articulos .info-articulo h5 {
     font-size: 0.8rem;
   }
-  .class-contenedor .icon-home {
+  .icon-home {
     margin-left: 90%;
     position: fixed;
     color: wheat;
@@ -377,9 +377,10 @@ li a {
     font-size: 0.7rem;
   }
   .paginas-sitio .tab-bar {
-    background-color: #62e0EE;
-    margin-top: 10%;
+    background-color: #6200EE;
+    margin-left: -3px;
     height: 56px;
+    width: 100%;
   }
   .paginas-sitio .tab-bar div {
     height: 100%;
@@ -740,6 +741,9 @@ li a {
   }
 }
 @media (min-width: 1000px) {
+  .icon-home {
+    display: none;
+  }
   .tab-bar {
     display: none;
   }
@@ -1214,6 +1218,9 @@ li a {
   }
 }
 @media (min-width: 400px) {
+  .icon-home {
+    display: none;
+  }
   .tab-bar {
     display: none;
   }
