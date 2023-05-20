@@ -360,7 +360,7 @@ li a {
         .contenedor-encabezado-guardado {
             text-align: center;
             min-width: 100%;
-            height: 200px;
+            height: 400px;
             background-image: url(../img/fondo-guardados.jfif);
             background-repeat: no-repeat;
             background-size: cover;
@@ -671,8 +671,8 @@ li a {
         .contenedor-encabezado-reservas {
             text-align: center;
             min-width: 100%;
-            height: 200px;
-            background-image: url(../img/fondo-palmeras.jpg);
+            height: 400px;
+            background-image: url(../img/fondo-reservas.jpg);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -816,9 +816,10 @@ li a {
         height: 100vh;
 
         .contenedor-encabezado-perfil {
+            color: black;
             text-align: center;
             min-width: 100%;
-            height: 200px;
+            height: 400px;
             background-image: url(../img/fondo-perfil.jpg);
             background-repeat: no-repeat;
             background-size: cover;
@@ -863,6 +864,7 @@ li a {
                 min-height: 150px;
                 overflow: hidden;
 
+
                 div {
                     padding: 10px;
 
@@ -870,6 +872,11 @@ li a {
                         color: black;
                         border: solid rgb(197, 197, 197);
                         border-radius: 10px;
+                    }
+
+                    a:hover{
+                        color: white;
+                        background-color: red;
                     }
                 }
 
@@ -910,7 +917,7 @@ li a {
         .contenedor-encabezado-alertas {
             text-align: center;
             min-width: 100%;
-            height: 200px;
+            height: 400px;
             background-image: url(../img/fondo-alertas.jpg);
             background-repeat: no-repeat;
             background-size: cover;
@@ -2164,6 +2171,10 @@ li a {
         display: none;
     }
 
+    .tab-bar-reservas{
+        display: none;
+    }
+
 
 
 }
@@ -3191,5 +3202,9 @@ li a {
         a div:hover {
             background-color: red;
         }
+    }
+
+    .tab-bar-reservas{
+        display: none;
     }
 }
