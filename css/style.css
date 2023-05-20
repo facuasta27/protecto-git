@@ -151,6 +151,13 @@ li a {
   .class-contenedor .article-contenedor .articulos .info-articulo h5 {
     font-size: 0.8rem;
   }
+  .class-contenedor .icon-home {
+    margin-left: 90%;
+    position: fixed;
+    color: wheat;
+    background-color: blueviolet;
+    border-radius: 50px;
+  }
   footer {
     background-color: wheat;
     height: 850px;
